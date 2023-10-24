@@ -13,16 +13,16 @@
             <div class="card-body">
               <div class="container">
                 <div class="row mx-1 justify-content-center">
-                  <button class="btn btn-success mx-2 mb-2 col-5 col-md-3 col-lg-2" value="72" @click="sendData">Check Servo MX</button>
-                  <button class="btn btn-success mx-2 mb-2 col-5 col-md-3 col-lg-2" value="73" @click="sendData">Check Servo XL</button>
-                  <button class="btn btn-danger mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 1" @click="sendData">ON/OFF Torque</button>
-                  <button class="btn btn-danger mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 2" @click="sendData">Stop</button>
+                  <button class="btn btn-success mx-2 mb-2 col-5 col-md-3 col-lg-2" value="73" @click="sendData">Check Servo MX</button>
+                  <button class="btn btn-success mx-2 mb-2 col-5 col-md-3 col-lg-2" value="72" @click="sendData">Check Servo XL</button>
+                  <button class="btn btn-danger mx-2 mb-2 col-5 col-md-3 col-lg-2" value="74 1" @click="sendData">ON/OFF Torque</button>
+                  <button class="btn btn-danger mx-2 mb-2 col-5 col-md-3 col-lg-2" value="76" @click="sendData">Stop</button>
                   <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 1" @click="sendData">Say Hi 👋</button>
                   <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 2" @click="sendData">Love You</button>
-                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 1" @click="sendData">Greetings</button>
-                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 2" @click="sendData">Inisannya</button>
-                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 1" @click="sendData">Tari Kancet Ledo</button>
-                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 2" @click="sendData">Gambang Semarang</button>
+                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 3" @click="sendData">Greetings</button>
+                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 4" @click="sendData">Inisannya</button>
+                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 5" @click="sendData">Tari Kancet Ledo</button>
+                  <button class="btn btn-primary mx-2 mb-2 col-5 col-md-3 col-lg-2" value="75 6" @click="sendData">Gambang Semarang</button>
                 </div>
               </div>
             </div>
